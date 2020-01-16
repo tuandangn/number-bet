@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Crawler\NB.Crawler.Core\NB.Crawler.Core.csproj" />
+    <ProjectReference Include="..\Crawler\NB.Crawler.Data\NB.Crawler.Data.csproj" />
+  </ItemGroup>
+
+</Project>
