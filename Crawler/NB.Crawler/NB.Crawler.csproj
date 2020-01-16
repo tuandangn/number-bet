@@ -13,8 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\MrdLibraries\MrdLibraries.Data\MrdLibraries.Data.csproj" />
-    <ProjectReference Include="..\..\NB.Crawler.Services\NB.Crawler.Services.csproj" />
     <ProjectReference Include="..\NB.Crawler.Core\NB.Crawler.Core.csproj" />
     <ProjectReference Include="..\NB.Crawler.Data\NB.Crawler.Data.csproj" />
+    <ProjectReference Include="..\NB.Crawler.Services\NB.Crawler.Services.csproj" />
   </ItemGroup>
 </Project>

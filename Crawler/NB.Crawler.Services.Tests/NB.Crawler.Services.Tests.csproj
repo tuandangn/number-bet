@@ -12,12 +12,13 @@
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
+    <PackageReference Include="System.Interactive.Async" Version="3.2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\MrdLibraries\MrdLibraries.Data\MrdLibraries.Data.csproj" />
     <ProjectReference Include="..\..\..\..\MrdLibraries\Tests\MrdLibraries.TestUltilities\MrdLibraries.TestUtilities.csproj" />
-    <ProjectReference Include="..\..\NB.Crawler.Services\NB.Crawler.Services.csproj" />
+    <ProjectReference Include="..\NB.Crawler.Services\NB.Crawler.Services.csproj" />
     <ProjectReference Include="..\NB.Crawler.Core\NB.Crawler.Core.csproj" />
   </ItemGroup>
 

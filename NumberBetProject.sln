@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.Crawler.Core", "Crawler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.Crawler", "Crawler\NB.Crawler\NB.Crawler.csproj", "{984252CE-30A5-4F6F-813C-4F7765DDE54F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.Crawler.Services", "NB.Crawler.Services\NB.Crawler.Services.csproj", "{73421043-45FE-4DD3-B543-929626512796}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.Crawler.Services", "Crawler\NB.Crawler.Services\NB.Crawler.Services.csproj", "{73421043-45FE-4DD3-B543-929626512796}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.Crawler.Data", "Crawler\NB.Crawler.Data\NB.Crawler.Data.csproj", "{420ECE0C-CAF1-4791-8513-A94E8B816718}"
 EndProject
