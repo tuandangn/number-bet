@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="@Html.Raw(ViewBag.MetaDescription)" />
+    <title>@Html.Raw(ViewBag.Title)</title>
+
+    <link rel="stylesheet" href="~/libs/twitter-bootstrap/css/bootstrap.css" />
+    @await RenderSectionAsync("Styles", false)
+</head>
+<body>
+    <partial name="_Header" />
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                @RenderBody()
+            </div>
+        </div>
+    </main>
+    <partial name="_Footer" />
+    <script defer src="~/libs/jquery/jquery.js"></script>
+    <script defer type="module" src="~/libs/popper.js/popper.js"></script>
+    <script defer src="~/libs/twitter-bootstrap/js/bootstrap.js"></script>
+    @await RenderSectionAsync("Scripts", false)
+</body>
+</html>
